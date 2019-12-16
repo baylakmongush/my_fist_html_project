@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> register </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="wrapper">
+    <div class="blur"></div>
+        <div id="registration" class="inner-wrapper">
+            <form id="RegisterUserForm" action="" method="post">
+                <div><img id="image" src="profile.png" height="100" width="100" style="margin-top: 20px;"></div>
+                <h1>Регистрация</h1>
+                <fieldset>
+            <p>
+                <label for="name" style="padding-left: 16px;"> Имя </label>
+                <input id="name" type="text" name="name"/>
+            </p>
+            <p>
+                <label for="email" style="padding-left: 16px;"> Электронный почтовый адрес </label>
+                <input id="email" type="url" name="email">
+            </p>
+            <p>
+                <label for="password" style="padding-left: 16px;"> Пароль </label>
+                <input id="password" type="text" name="password">
+            </p>
+            <p>
+                <input id="acceptTerms" name="acceptTerms" type="checkbox" />
+                <label for="acceptTerms">
+                    Я соглашаюсь с <a href="">Условиями</a> и <a href="">Правилами конфиденциальности</a>
+                </label>
+            </p>
+            <p>
+                <button id="RegisterNew" class="submit" type="submit">Регистрация</button>
+            </p>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</main>
+</body>
+</html>
